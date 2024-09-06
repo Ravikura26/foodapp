@@ -1,0 +1,72 @@
+# Ignore node_modules for both food and backend
+food/node_modules/
+backend/node_modules/
+
+# Ignore environment variable files for both food and backend
+food/.env
+backend/.env
+
+# Ignore build files for the food (React, Next.js, etc.)
+food/.next/
+food/.nuxt/
+food/.out/
+food/build/
+food/dist/
+food/.cache/
+food/.parcel-cache/
+
+# Ignore build and log files for backend (Node.js/Express)
+backend/dist/
+backend/build/
+backend/logs/
+backend/*.log
+backend/.cache/
+backend/.parcel-cache/
+
+# Ignore lock files
+food/package-lock.json
+food/yarn.lock
+backend/package-lock.json
+backend/yarn.lock
+
+# Ignore IDE/editor configuration files (common across both food and backend)
+*.idea/
+*.vscode/
+*.DS_Store
+Thumbs.db
+
+# Ignore OS-specific files
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# Ignore testing/coverage reports
+food/coverage/
+backend/coverage/
+food/junit.xml
+backend/junit.xml
+
+# Ignore output from TypeScript and JavaScript transpilers
+food/.turbo/
+backend/.turbo/
+
+# Ignore Docker files and build context, if you're using Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.prod.yml
+Dockerfile
+docker-compose.yml
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore miscellaneous file types
+*.tmp
+*.temp
+
